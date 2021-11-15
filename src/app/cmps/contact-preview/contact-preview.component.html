@@ -1,0 +1,6 @@
+<div *ngIf="contact" (click)=goToDetails($event) class="contact-preview">
+    <div class="flex align-center"><img :src="https://robohash.org/{{contact._id}}?size=50x50" />
+        {{contact.name}}
+    </div>
+    <button (click)="onRemoveContact($event)" class="clean-btn">X</button>
+</div>

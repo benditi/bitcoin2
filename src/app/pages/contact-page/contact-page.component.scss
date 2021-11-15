@@ -1,0 +1,11 @@
+@import '../../../assets/scss/helpers';
+.contact-page{
+    font-family: Livvic-SemiBold;
+    .plus-icon{
+        height: 50px;
+        width: 50px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<section class="contact-page">
+    <div class="flex justify-space-between align-center">
+        <contact-filter></contact-filter>
+        <div (click)=onAddContact()>
+            <img src="./assets/icons/plus.png" alt=""  class="plus-icon">
+        </div>
+    </div>
+    <contact-list [contacts]="contacts$|async" (remove)="onRemoveContact($event)"></contact-list>
+</section>

@@ -1,0 +1,26 @@
+@import '../../../assets/scss/helpers';
+@import '../../../assets/scss/variables';
+.contact-preview{
+    width: 300px;
+    background-color: #80808047;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    @media (min-width: $mobile-breakpoint){
+        width: 500px;
+    }
+    button{
+        margin-right: 10px;
+        display: none;
+        font-family: Livvic-Bold;
+        font-size: 16px;
+    }
+}
+.contact-preview:hover{
+    button{
+        display: inline-block;
+    }
+} 

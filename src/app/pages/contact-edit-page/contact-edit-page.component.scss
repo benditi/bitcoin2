@@ -1,0 +1,43 @@
+@import '../../../assets/scss/helpers';
+.contact-edit{
+    font-family: Livvic-Bold;
+    font-size: 18px;
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .my-input{
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            label{
+                margin-right: 10px;
+            }
+            input{
+                font-size: 18px;
+                width: 300px;
+            }
+        }
+    }
+    button{
+        margin-top: 20px;
+        width: 70px;
+        height: 44px;
+    }
+    a {
+        margin-top: 20px;
+        width: 70px;
+        height: 44px;
+        background-color: #8080801c;
+        border: 1px solid grey;
+        padding: 1px;
+        margin-right: 10px;
+        font-size: 13.33px;
+        font-family: 'arial';
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
