@@ -17,6 +17,6 @@
     </form>
     <div class="edit-btns flex justify-center">
         <a routerLink="/contact/{{contact._id}}" class="clean-link">Back</a>
-        <button (click)="onRemveContact()">Delete</button>
+        <button *ngIf="contact.name" (click)="onRemveContact()">Delete</button>
     </div>
 </section>

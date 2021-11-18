@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: Livvic-SemiBold;
-    padding: 0 50px;
+    padding: 0 40px;
     .screen {
         position: fixed;
         top: 0;
@@ -31,12 +31,24 @@
         transition: transform .6s;
         display: flex;
         flex-direction: column;
-        background-color: rgba(240, 164, 126, 0.801);
+        background-color: rgba(240, 164, 126, 0.901);
         font-size: 20px;
         border-radius: 5px;
-        padding: 10px;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        right: 42px;
+        height: 100vh;
+        width: 240px;
+        @media (min-width: $mobile-breakpoint){
+            width: unset;
+            display: flex;
+            height: unset;
+            position: unset;
+        }
         > *{
             margin-right: 10px;
+            margin-bottom: 14px;
             cursor: pointer;
         }
         @media (min-width: $mobile-breakpoint){
@@ -51,7 +63,9 @@
     }
     .btn-menu-toggle {
         display: block;
-        font-size: 30px;
+        font-size: 34px;
+        background-color: unset;
+        border: none;
         @media (min-width: $mobile-breakpoint){
             display: none;
         }

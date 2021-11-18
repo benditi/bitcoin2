@@ -2,8 +2,13 @@
 .contact-page{
     font-family: Livvic-SemiBold;
     .plus-icon{
-        height: 50px;
-        width: 50px;
+        // background-image: url('../../../assets/icons/plus.png');
+        // background-repeat: no-repeat;
+        z-index: 1;
+        img {
+            height: 50px;
+            width: 50px;
+        }
         &:hover{
             cursor: pointer;
         }

@@ -30,6 +30,8 @@
                 display: flex;
                 align-items: center;
                 margin-bottom: 10px;
+                background-color: whitesmoke;
+                border: none;
                 @media (min-width: $mobile-breakpoint) {
                     font-size: 30px;
                 }

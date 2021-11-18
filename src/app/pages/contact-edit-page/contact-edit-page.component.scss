@@ -13,6 +13,7 @@
             align-items: center;
             label{
                 margin-right: 10px;
+                margin-bottom: 10px;
             }
             input{
                 font-size: 18px;
@@ -24,20 +25,27 @@
         margin-top: 20px;
         width: 70px;
         height: 44px;
+        border-radius: 5px;
+        border: 1px solid rgb(118, 118, 118);
+        margin-left: 5px;
     }
     a {
         margin-top: 20px;
         width: 70px;
         height: 44px;
-        background-color: #8080801c;
-        border: 1px solid grey;
+        background-color: rgb(239, 239, 239);
+        border-radius: 5px;
+        border: 1px solid rgb(118, 118, 118);
         padding: 1px;
-        margin-right: 10px;
+        margin-right: 5px;
         font-size: 13.33px;
         font-family: 'arial';
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    form button{
+        margin-left: unset;
     }
 }
